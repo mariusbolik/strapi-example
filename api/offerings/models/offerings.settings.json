@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offerings",
+  "info": {
+    "name": "offerings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "enumeration",
+      "enum": [
+        "APP",
+        "FUNNEL"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

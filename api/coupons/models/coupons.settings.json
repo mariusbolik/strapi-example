@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "name": "Coupons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "validUntil": {
+      "type": "datetime"
+    },
+    "trialDays": {
+      "type": "integer"
+    }
+  }
+}

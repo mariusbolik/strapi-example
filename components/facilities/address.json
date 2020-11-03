@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_facilities_addresses",
+  "info": {
+    "name": "address",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    }
+  }
+}

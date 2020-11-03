@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_city_credits",
+  "info": {
+    "name": "credits",
+    "icon": "hotel"
+  },
+  "options": {},
+  "attributes": {
+    "owner": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

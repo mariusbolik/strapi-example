@@ -1,0 +1,41 @@
+{
+  "name": "liveparking-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fast-xml-parser": "^3.17.4",
+    "knex": "<0.20.0",
+    "lodash": "^4.17.20",
+    "mysql": "^2.18.1",
+    "strapi": "^3.2.5",
+    "strapi-admin": "^3.2.5",
+    "strapi-connector-bookshelf": "^3.2.5",
+    "strapi-plugin-content-manager": "^3.2.5",
+    "strapi-plugin-content-type-builder": "^3.2.5",
+    "strapi-plugin-documentation": "^3.2.5",
+    "strapi-plugin-email": "^3.2.5",
+    "strapi-plugin-upload": "^3.2.5",
+    "strapi-plugin-users-permissions": "^3.2.5",
+    "strapi-utils": "^3.2.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ae221f88-714f-4809-beb0-f9acca2198cb"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "name": "Cities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "DE",
+        "CH",
+        "AT"
+      ],
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "maintenance",
+        "discontinued"
+      ],
+      "default": "active",
+      "required": true
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.location"
+    },
+    "credits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "city.credits"
+    },
+    "system": {
+      "type": "enumeration",
+      "enum": [
+        "legacy",
+        "current"
+      ]
+    }
+  }
+}

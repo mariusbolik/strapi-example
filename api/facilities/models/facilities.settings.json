@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facilities",
+  "info": {
+    "name": "facilities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "populateCreatorFields": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "spots": {
+      "type": "component",
+      "repeatable": false,
+      "component": "facilities.spots"
+    },
+    "pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "facilities.pricing"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "facilities.address"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "facilities.location"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "Offen",
+        "Geschlossen",
+        "Fehler"
+      ]
+    },
+    "openingTimes": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "entranceHeight": {
+      "type": "decimal"
+    },
+    "assignment": {
+      "type": "string"
+    },
+    "entranceWidth": {
+      "type": "decimal"
+    },
+    "features": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq",
+  "info": {
+    "name": "Frequently Asked Questions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "navigateToPathOnClick": {
+      "type": "string"
+    },
+    "openEmailOnClick": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "city_requests",
+  "info": {
+    "name": "City Requests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

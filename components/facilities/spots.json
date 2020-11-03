@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_facilities_spots",
+  "info": {
+    "name": "spots",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "free": {
+      "type": "integer"
+    },
+    "freeText": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "integer"
+    }
+  }
+}

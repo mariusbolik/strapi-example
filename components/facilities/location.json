@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_facilities_locations",
+  "info": {
+    "name": "location",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    }
+  }
+}
