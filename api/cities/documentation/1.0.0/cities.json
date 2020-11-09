@@ -592,6 +592,26 @@
               "legacy",
               "current"
             ]
+          },
+          "spots": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "free": {
+                "type": "integer"
+              },
+              "freeText": {
+                "type": "string"
+              },
+              "capacity": {
+                "type": "integer"
+              }
+            }
           }
         }
       },
@@ -669,6 +689,26 @@
               "legacy",
               "current"
             ]
+          },
+          "spots": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "free": {
+                "type": "integer"
+              },
+              "freeText": {
+                "type": "string"
+              },
+              "capacity": {
+                "type": "integer"
+              }
+            }
           },
           "created_by": {
             "type": "string"

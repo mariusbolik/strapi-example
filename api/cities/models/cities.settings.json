@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "cities",
   "info": {
-    "name": "Cities"
+    "name": "Cities",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -54,6 +56,11 @@
         "legacy",
         "current"
       ]
+    },
+    "spots": {
+      "type": "component",
+      "repeatable": false,
+      "component": "facilities.spots"
     }
   }
 }
